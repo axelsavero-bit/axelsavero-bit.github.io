@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Axel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU NAVIGASI -->
+    <header>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Tentang Saya</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- BERANDA -->
+    <section id="beranda" class="section">
+        <p class="label">HALO, SELAMAT DATANG!</p>
+        <h1>Axel Zalviano Savero Hidayat</h1>
+        <h2>Mahasiswa Sistem Informasi</h2>
+        <p>
+            Mahasiswa Universitas Widyatama yang tertarik
+            pada teknologi, musik, dan dunia kreatif.
+        </p>
+        <a href="#tentang">Kenali Saya</a>
+    </section>
+    
+
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="section">
+        <div class="about-profile">
+        <img src="images/foto-profil.jpeg"
+         alt="Foto profil saya"
+         class="profile-photo">
+</div>
+        <div class="section-heading">
+            <p class="label">KENALI SAYA</p>
+            <h2>Tentang Saya</h2>
+            <p>Profil, perjalanan, dan pengalaman saya.</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Axel Zalviano Savero Hidayat</h3>
+
+                <p>
+                    Saya adalah mahasiswa S1 Sistem Informasi
+                    di Universitas Widyatama dengan NIM 251111023.
+                    Saya memiliki ketertarikan pada teknologi,
+                    pengembangan diri, musik, dan dunia kreatif.
+                </p>
+
+                <p>
+                    Selain menjalani perkuliahan, saya aktif
+                    bermusik dan mengikuti kegiatan organisasi.
+                    Saya juga sedang menjalani program magang
+                    di PT Scola pada bidang Data Entry dan
+                    Content Creation.
+                </p>
+
+                <div class="biodata">
+                    <p><strong>Nama:</strong> Axel Zalviano Savero Hidayat</p>
+                    <p><strong>NIM:</strong> 251111023</p>
+                    <p><strong>Program Studi:</strong> S1 Sistem Informasi</p>
+                    <p><strong>Universitas:</strong> Universitas Widyatama</p>
+                    <p><strong>Aktivitas:</strong> Kuliah, musik, dan magang</p>
+                </div>
+            </div>
+
+            <div class="about-cards">
+                <article class="about-card">
+                    <span class="about-icon">🎸</span>
+                    <h3>Musik & Band</h3>
+                    <p>
+                        Aktif bermusik dan pernah bergabung
+                        dengan band. Saat ini menjadi anggota
+                        utama Band Club di lingkungan kampus.
+                    </p>
+                    <span class="experience-tag">Aktivitas Musik</span>
+                </article>
+
+                <article class="about-card">
+                    <span class="about-icon">🤝</span>
+                    <h3>Pengalaman Organisasi</h3>
+                    <p>
+                        Saat SMK, saya pernah menjabat sebagai
+                        Ketua Divisi Humas Karang Taruna RW.
+                    </p>
+                    <span class="experience-tag">Ketua Divisi Humas</span>
+                </article>
+
+                <article class="about-card">
+                    <span class="about-icon">💻</span>
+                    <h3>Pengalaman Magang</h3>
+                    <p>
+                        Saat ini saya sedang magang di PT Scola
+                        dalam bidang Data Entry dan Content Creation.
+                    </p>
+                    <span class="experience-tag">PT Scola</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section id="keahlian" class="section">
+        <div class="section-heading">
+            <p class="label">KEMAMPUAN</p>
+            <h2>Keahlian Saya</h2>
+        </div>
+
+        <div class="about-cards">
+            <article class="about-card">
+                <h3>Data Entry</h3>
+                <p>Memasukkan dan mengelola data dengan teliti.</p>
+            </article>
+            <article class="about-card">
+                <h3>Content Creation</h3>
+                <p>Membantu membuat konten kreatif.</p>
+            </article>
+            <article class="about-card">
+                <h3>Komunikasi</h3>
+                <p>Mengembangkan kemampuan komunikasi dan kerja sama.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section id="pengalaman" class="section">
+        <div class="section-heading">
+            <p class="label">PERJALANAN SAYA</p>
+            <h2>Pengalaman</h2>
+        </div>
+
+        <article class="about-card">
+            <h3>Magang — PT Scola</h3>
+            <p>Data Entry dan Content Creation.</p>
+        </article>
+
+        <article class="about-card">
+            <h3>Karang Taruna RW</h3>
+            <p>Ketua Divisi Humas saat SMK.</p>
+        </article>
+
+        <article class="about-card">
+            <h3>Band Club Kampus</h3>
+            <p>Aktif mengikuti kegiatan musik di kampus.</p>
+        </article>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="section">
+        <div class="section-heading">
+            <p class="label">HUBUNGI SAYA</p>
+            <h2>Kontak</h2>
+            <p>Kamu bisa mengirim pesan melalui formulir berikut.</p>
+        </div>
+
+        <form id="form-kontak">
+            <input type="text" id="nama" placeholder="Nama kamu" required>
+            <input type="email" id="email" placeholder="Email kamu" required>
+            <textarea id="pesan" placeholder="Tulis pesan kamu" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <p id="hasil-pesan"></p>
+        <!-- LINK MEDIA SOSIAL -->
+<div class="social-links">
+    <a href="https://www.instagram.com/axelsaavero/"
+       target="_blank"
+       rel="noopener noreferrer">
+        Instagram
+    </a>
+
+    <a href="https://github.com/axelsavero-bit"
+       target="_blank"
+       rel="noopener noreferrer">
+        GitHub
+    </a>
+</div>
+    </section>
+
+    <!-- GALERI FOTO -->
+<section id="galeri" class="section">
+    <div class="section-heading">
+        <p class="label">MOMEN SAYA</p>
+        <h2>Galeri Musik 🎸</h2>
+        <p>Beberapa momen saya dalam perjalanan bermusik.</p>
+    </div>
+
+    <div class="gallery-container">
+        <img src="images/foto-band.jpeg" alt="Tampil bersama Band Club di depan penonton">
+        <img src="images/foto-gitar.jpeg" alt="Bermain gitar di acara musik">
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; <span id="tahun"></span>
+            Axel Zalviano Savero Hidayat
+        </p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
